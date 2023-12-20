@@ -1,0 +1,19 @@
+img_control:
+  ros__parameters:
+    bright: 1
+    contrast: 1.1
+    blur: 1
+
+laplace:
+  ros__parameters:
+    smoothType: GAUSSIAN
+    sigma: 1
+
+edge:
+  ros__parameters:
+    thrs1: 1000
+    thrs2: 2000
+
+optical_flow:
+  ros__parameters:
+    step: 8
